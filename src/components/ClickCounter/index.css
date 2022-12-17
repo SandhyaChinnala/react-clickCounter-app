@@ -1,0 +1,52 @@
+/* Write your CSS here */
+body {
+  margin: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f1f5f8;
+}
+
+.title {
+  color: #2d3a35;
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-weight: 900;
+  }
+}
+
+.number {
+  color: #c20a72;
+}
+
+.description {
+  color: #2d3a35;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 400;
+  margin: 10px;
+}
+
+.clickMeBtn {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 400;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #007bff;
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+}
